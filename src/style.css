@@ -1,0 +1,26 @@
+/* ===== 全局基础样式 ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #2d3436;
+}
+
+/* 让游戏卡片在页面中水平、垂直居中 */
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
